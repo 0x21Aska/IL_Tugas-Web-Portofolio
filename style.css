@@ -1,0 +1,274 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #212529;
+    color: #f5f5f5;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 12px 20px 12px 20px;
+    background: #284B63;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-top: 24px;
+    color: #f5f5f5;
+}
+
+.pre-title {
+    color: #9D0208;
+    position: relative;
+    padding-bottom: 6px;
+    width: fit-content;
+    font-weight: 500;
+
+}
+
+.pre-title::before {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.sec-pre-title {
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+/* Logo dan navbar menu */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0;
+    transition: 0.2s ease-in-out;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.logo a {
+    color: #f5f5f5;
+}
+
+nav ul li a {
+    color: #f5f5f5;
+}
+
+
+/* Home Section */
+#home {
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+}
+
+.home-right img {
+    width: 420px;
+    border-radius: 8px;
+    
+}
+
+.home-right {
+    display: flex;
+    justify-content: center;
+}
+
+.home-left {
+    padding-top: 64px;
+}
+
+
+.linkForVector {
+    display: flex;
+    padding-top: 16px;
+    gap: 12px;
+}
+
+.home-left img {
+    padding: 8px;
+}
+
+.home-left p {
+    color: #7C8287;
+}
+
+
+section {
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+
+/* About Section */
+
+#about {
+    background-color: #282C31;
+    padding: 64px;
+
+}
+
+.section-title-about {
+    padding-bottom: 32px;
+}
+
+
+/* Layout */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+
+}
+
+.about {
+    padding: 24px;
+    text-align: left;
+    background: #212529;
+    border-radius: 12px;
+    
+}
+
+.about h4 {
+    text-align: left;
+    padding: 16px;
+    padding-bottom: 6px;
+
+}
+
+.about p {
+    color: #7C8287;
+    font-size: 14px;
+    text-align: left;
+    padding: 0px 16px 16px 16px;
+}
+
+.about-icon img {
+    padding: 16px 16px 2px 16px;
+}
+
+
+/* Projects Section */
+#projects {
+    padding: 64px;
+}
+
+.section-title-projects {
+    padding-bottom: 32px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dezign {
+    margin: auto; /* Meratakan elemen secara horizontal */
+    position: relative; /* Membuatnya menjadi posisi relatif */
+    left: 7%;
+    
+}
+
+.spacing-BC {
+    padding-top: 32px;
+    
+}
+
+.dezign h3 {
+    padding-top: 12px;
+    padding-bottom: 4px;
+
+}
+
+.dezign p {
+    font-size: 10px;
+    color:#7C8287;
+}
+
+.dezign img {
+    border-radius: 12px;
+}
+
+
+/* Skills Section */
+#skills {
+    background-color: #282C31;
+    padding: 64px;
+}
+
+.kemampuan {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+}
+
+
+/* Contact Me Section */
+#contactme {
+    background-color: #282C31;
+    padding: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 100px;
+
+}
+
+.groupContactme {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#iniID {
+    align-content: flex-end;
+}
+
+.btnEmail {
+    background-color: #212529;
+    color: white;
+    padding: 16px 48px 16px 48px;
+    border: 1px solid transparent;
+    border-radius: 32px;
+    cursor: pointer;
+}
